@@ -78,7 +78,7 @@ get_header(); ?>
 		
 		// FEATURED
 		$featured 	= get_post_meta($post->ID, "featured", true);
-		if($featured == ""){ update_post_meta($post->ID, "featured", "no"); }
+		if($featured == ""){ update_post_meta($post->ID, "featured", 1); }
 		
 		// LOAD SOME GLOBAL VALUES FOR DISPLAY
 		$GLOBALS['directorypress']['vps'] 				= get_option("display_search_publisher");

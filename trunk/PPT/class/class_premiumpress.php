@@ -551,7 +551,7 @@ function CountCategorySubs($ID){
 			$path = $path_parts['dirname'];
 			if($path_parts['basename'] != ""){ $path .= "/".$path_parts['basename']; }
 			
-			/*if(substr($path£¬-1) != "/" || substr($path£¬-1) != "\""){
+			/*if(substr($pathï¿½ï¿½-1) != "/" || substr($pathï¿½ï¿½-1) != "\""){
 			$path .="/";
 			}*/
 			return $path;
@@ -1559,7 +1559,7 @@ function CountCategorySubs($ID){
  
 			add_post_meta($POSTID, "hits", "0");
 			if(!isset($_POST['form']['price'])){ add_post_meta($POSTID, "price", "0"); }else{ $_POST['form']['price'] = str_replace(",","",$_POST['form']['price']); } 
-			add_post_meta($POSTID, "featured", "no");
+			add_post_meta($POSTID, "featured", 1);
 			
 			if(isset($_POST['form']['country']) && !is_numeric($_POST['form']['country'])){
 				  add_post_meta($POSTID, "country", $_POST['form']['country']);	
@@ -1599,9 +1599,9 @@ function CountCategorySubs($ID){
 						add_post_meta($POSTID, "expires", $PACKAGE_OPTIONS[$_POST['packageID']]['expire']);		
 					}
 			
-					if($PACKAGE_OPTIONS[$_POST['packageID']]['a5'] == 1){
-						update_post_meta($POSTID, "featured", "yes");
-					}	
+//					if($PACKAGE_OPTIONS[$_POST['packageID']]['a5'] == 1){
+						update_post_meta($POSTID, "featured", $_POST['packageID']);
+//					}
 	
 					return $POSTID;
 			

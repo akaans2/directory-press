@@ -1,6 +1,6 @@
 
 
-/* ===================== COLUMN WIDTHS ======================== */ 
+/* ===================== COLUMN WIDTHS ======================== */
 /*
 STYLES FOR A 3 COLUMN LAYOUT :)
 .leftSidebar { width:20%; margin-right:10px; margin-left:0px; }
@@ -16,7 +16,7 @@ STYLES FOR A 3 COLUMN LAYOUT :)
 
 
 
-/* ===================== THEME GLOBAL STYLES ======================== */ 
+/* ===================== THEME GLOBAL STYLES ======================== */
 
 	body { margin-top:10px; }
 	* { margin: 0; padding: 0; outline: 0; }
@@ -33,8 +33,8 @@ STYLES FOR A 3 COLUMN LAYOUT :)
 	.rightside { margin-right:0px !important;  margin-left:10px; }
 	.left { border-right: 0px; }
 
-/* ===================== _HEADER STYLES ======================== */ 
- 
+/* ===================== _HEADER STYLES ======================== */
+
 	.wrapper { }
 	#widecolumn .wrapper  {}
 	#header {  height:100px;overflow:hidden;  background:#fff; }
@@ -42,7 +42,7 @@ STYLES FOR A 3 COLUMN LAYOUT :)
         margin-left: -1px;
         width: 961px;}
 	#logo { width:450px; margin-top:7px;}
-	#banner { margin-top:10px; } 
+	#banner { margin-top:10px; }
 	#content { height: 100%; padding: 12px 10px 10px 12px; }
 	.menu { height:55px; background: #004161 url(images/menu.gif) repeat-x; }
 	.menu li { margin-top:12px; }
@@ -54,13 +54,13 @@ STYLES FOR A 3 COLUMN LAYOUT :)
 	#submenubar { border-top:1px solid #000; }
 	#SearchForm { margin:0px; padding:0px; width:480px; margin-left:20px;margin-top:5px; float:left; }
 	#SearchForm .searchBtn { padding:0px; margin:0px; border:0px; width:33px; height:29px; background:url(images/search.gif) no-repeat; border:0px !important; padding:0px; cursor:pointer; }
-	
+
 	#AdvancedSearchBox h2 { color:#666; }
  	.AdvancedSearchBox { border: 1px solid #ddd; margin: 10px; padding:10px; background: white; }
 	.AdvancedSearchBox h2 { font-size:20px; }
 	.AdvancedSearchBox label { font-size:16px; color:#666; }
- 
-	 
+
+
 
 /*
 
@@ -76,7 +76,7 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 
 
 
-/* ===================== _FOOTER.PHP STYLES ======================== */ 
+/* ===================== _FOOTER.PHP STYLES ======================== */
 
 	#footer { background: url('images/footer.gif') repeat-x; }
 	#footer h3 { color:#ddd}
@@ -87,7 +87,7 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	.recentarticles a { color:#ffffff; }
 	#footer .first_col { color:#ffffff; }
 
-/* ===================== _HOMEPAGE.PHP STYLES ======================== */ 
+/* ===================== _HOMEPAGE.PHP STYLES ======================== */
 
 	.homeCategories { width: 100%; padding-top:10px; margin-top:0px; margin-bottom:0px; }
 	.homeCategories ul li  {  float:left; min-width:220px; min-height:40px;  }
@@ -96,7 +96,7 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
         line-height: 17px;text-decoration: none; }
 	.homeCategories ul .sm { padding:0px; margin:0px; color:#666; float:left; margin-right:10px;   border:1px solid #ddd;   padding:2px; margin-top:3px;}
 	.homeCategories ul .sm:hover { background:#FFCC00; color:white; border:1px solid #FF9900}
-	#sidebar .homeCategories {background: #EFEFEF;margin-bottom: 0px;margin-top: 0px;padding-top: 10px;width: 100%; } 
+	#sidebar .homeCategories {background: #EFEFEF;margin-bottom: 0px;margin-top: 0px;padding-top: 10px;width: 100%; }
 	#sidebar .homeCategories li a { font-size:13px !important; }
 	.itembox { border: 1px solid #E2E2E2; background: white;
         -moz-border-radius: 8px;
@@ -127,9 +127,9 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	.featured-itemImage span strong {color:#333333; }
 	.featured-itemImage span { background-color: #eeeeee; }
 	.featured-itemImage span b {	color:#666666; }
-	.featured-itemImage span em.price { color:#333333; } 
+	.featured-itemImage span em.price { color:#333333; }
 
-/* ===================== _ITEM.PHP STYLES ======================== */ 
+/* ===================== _ITEM.PHP STYLES ======================== */
 
 	.thumbnail-large {  background: url(images/thumbnail-large.png) no-repeat; float: left;  min-height: 150px; padding-top: 13px;text-align: center; vertical-align: middle;width: 200px; }
 	.thumbnail-large a { height:190px; }
@@ -143,10 +143,10 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	.info { padding-top:15px; color:#666;}
 	.ratingblock  { float:right; margin-right:10px;  }
 	#SearchContent  .ratingblock  {  margin-top:-36px; }
-	.ratingtext  { display:none; }	
+	.ratingtext  { display:none; }
 	#PPTSinglePage-post .ratingblock  { float:none; margin-left:40px;}
 
-/* ===================== _SIDEBAR.PHP STYLES ======================== */ 
+/* ===================== _SIDEBAR.PHP STYLES ======================== */
 
 	#sidebar { }
 	#sidebar .photo { float:right; padding-left:10px;}
@@ -154,11 +154,11 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	.category li a:hover {background:#ccc url(images/pointer.gif) no-repeat 10px center;}
 	.category li span { background:red;}
 	.category li .sub a { background:white url(images/pointer-active.gif) no-repeat 10px center; }
-	.category li .sub a:hover { background: #fffcee url(images/pointer-active.gif) no-repeat 10px center; } 
-	
+	.category li .sub a:hover { background: #fffcee url(images/pointer-active.gif) no-repeat 10px center; }
+
 	.category li .subsub a { background:#d9ffde; }
-	.category li .subsub a:hover { background: #d9ffde url(images/pointer-active.gif) no-repeat 10px center; } 
-		
+	.category li .subsub a:hover { background: #d9ffde url(images/pointer-active.gif) no-repeat 10px center; }
+
 	#sidebar_recentarticle img { float:right; max-width:80px; max-height:90px; padding-left:10px; padding-bottom:10px; }
 	#sidebar_recentarticle h3 { font-size:16px; }
 	#sidebar .widget li a { background: url(images/pointer.gif) no-repeat 10px center;color: #7C3131;display: block;font-size: 12px;padding: 5px 5px 5px 25px;text-decoration: none;}
@@ -203,7 +203,7 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	#gradient-style td a { color:#000000}
 
  /* ===================== _SINGLE.PHP STYLES ======================== */
- 
+
 	#SingleImage { max-width:200px; float:left; padding-right:15px; padding-bottom:15px;  }
 	ul.tabs { margin-top:15px; margin-right:20px;}
 	#comments{ 	}
@@ -212,7 +212,7 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	.reply { padding:3px; background:#666; border:1px solid #ccc;  width:100px; text-align:center; line-height:normal; }
 	.reply a { color:#FFFFFF; font-size:12px; }
 	.comment { padding-top:10px; font-size:16px; line-height:30px;}
-	.commentmetadata a { text-transform:uppercase; font-size:11px; } 
+	.commentmetadata a { text-transform:uppercase; font-size:11px; }
 	.fn { font-size:16px; font-weight:bold;  }
 	.fn a { color:#666; }
 	.plinks {color: rgb(102, 102, 102);float: left; font-size: 12px;margin: 5px 0px 0px 0px;}
@@ -232,22 +232,22 @@ MAKING IT EASIER TO LOCATE WHERE THEY BELONG
 	#hor-zebra{	 	font-size: 12px;	width: 100%;	text-align: left;	border-collapse: collapse;}
 	#hor-zebra th{	font-size: 14px;	font-weight: normal;	padding: 10px 8px;	color: #039;}
 	#hor-zebra td{	padding: 8px;	color: #669;}
-	#hor-zebra .odd{	background: #e8edff; } 
-	
+	#hor-zebra .odd{	background: #e8edff; }
+
 /* ===================== _TPL_ADD.PHP STYLES ======================== */
-	
+
 	.payicon { float:right; margin-right:0px; background: url('images/paypal_icon.png') no-repeat; width:304px; height:137px; }
 	.extrainfo { background:#efefef; border-top:2px solid #ddd; border-bottom: 2px solid #ddd; padding:10px; margin-top:30px; margin-right:20px;}
-	
+
 	.CheckoutBtn a, Checkout a:hover{	text-decoration:none;	font-weight:bold;	height:23px;	width:120px;	display:block;	text-align:center;	padding-top:6px;}
 	.CheckoutBtn a{	background:url(images/Btn.jpg) no-repeat;	color:#FFFFFF;}
-	
-/* ===================== ICON STYLES ======================== */ 
+
+/* ===================== ICON STYLES ======================== */
 
 	/*#icon-single-comment { background:  url(images/icon-single-comment.png) no-repeat 10px center;  }*/
 	/*#icon-single-map { background:  url(images/icon-single-map.png) no-repeat 10px center;  }*/
 	/*#icon-single-info { background: url(images/icon-single-info.png) no-repeat 10px center;  }*/
 	/*#icon-single-images { background: url(images/icon-single-images.png) no-repeat 10px center;  }*/
 	/*#icon-single-contact { background: url(images/icon-single-contact.png) no-repeat 10px center;  }*/
-	
+
 	.widget { padding:5px; }
