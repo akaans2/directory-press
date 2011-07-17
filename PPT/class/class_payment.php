@@ -632,9 +632,9 @@ class PremiumPressTheme_Payment {
 				 
 				 update_post_meta($oData[0], "packageID", $oData[3] );	
 				 update_post_meta($oData[0], "expires", $packdata[$oData[3]]['expire'] );
-				 if($packdata[$oData[3]]['a5']  == 1){	
-				 update_post_meta($oData[0], "featured", "yes" );
-				 }		
+//				 if($packdata[$oData[3]]['a5']  == 1){
+				 update_post_meta($oData[0], "featured", $_POST['packageID']);
+//				 }
 			
 			
 			} break; 

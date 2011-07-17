@@ -7,5 +7,5 @@
 	define("PREMIUMPRESS_VERSION_DATE","1st July, 2011");
 
 	if(defined('TEMPLATEPATH')){ include("PPT/_config.php"); }
- 
+
 ?>
