@@ -1,0 +1,73 @@
+
+    h1 { color: #124f8e; }
+    h3 { color: #124f8e; }	
+    ul.display li h2 a { color: #124f8e; }
+	a { color: #124f8e; }
+	.links1 a { color:#666; }
+	.links1 h3 a { color: #124f8e; }	
+
+/* ===================== COLUMN WIDTHS ======================== */ 
+
+	.leftSidebar { width:20%; margin-right:10px; margin-left:0px; }
+	.middleSidebar {width:74%;}
+	.middleSidebar p, .middleSidebar em { padding-left: 10px;}
+	.middleSidebar #messageRead { padding: 10px;}
+	.middleSidebar h1 { padding-left: 10px;}
+	.rightSidebar { width:24.5%; margin-left:14px; margin-right:0px; }
+    #registerform { background: white; border-radius: 8px; padding-top: 10px;}
+    #steptable{
+        background: none repeat scroll 0 0 white;
+        border-radius: 8px;}
+	#PPTSinglePage-post .rightSidebar { width:260px;   } 
+	#PPTSinglePage-post .rightSidebar p { width:260px; padding-left: 10px;  }
+    #articlepage {background: white; border-radius: 8px; clear: both; padding: 10px; margin-top: 10px;}
+
+/* ===================== _HEADER STYLES ======================== */ 
+
+	body {  }
+	/*.menu { display:none; } */
+	#logo { margin-top:10px; }
+	#hpages {height: 25px; }
+	#hpages ul li { border-right:0px; }
+ 	#hpages ul li a { color:#333333}	
+	#header {  height:130px;overflow:hidden;  background-image:none; background:transparent;  }
+	#submenubar { border-top: 0px;height: 93px; margin-bottom:10px; margin-top:-5px; background:transparent url(../images/navbg.png) repeat-x bottom left; }
+	#submenubar #s, #catsearch, #catsearch2, #catsearch3 {
+        height: 37px;
+        padding-top: 8px;
+        width: 270px;}
+	#footer { width:100% !important;  }
+	#footer .w_960 { width:960px; margin: 0 auto; }	
+	.submenu_account { display:none; }
+	#SearchForm { width:750px;}
+	#sadvanced a { color:white;  padding-left:5px; }
+	#SearchForm .searchBtn {background: url(../images/search.png) no-repeat;border: 0px !important;height:40px; width:54px;}
+	#SearchForm .searchBtn { }
+	#submitButton img {width: 150px; margin-top: 15px;}
+	#submitButton { float:right; margin-right:30px; margin-top: 5px; }
+	.white { color:white; }
+    .menu {
+        height: 35px;
+        background: transparent url(../images/navbg.png) repeat-x bottom left;
+        margin-bottom: 10px;
+    }
+    .menu li {
+        padding: 4px 6px 4px 6px;}
+
+/* ===================== ICON STYLES ======================== */ 
+ 
+	 
+	#icon-single-map { background-color: #C9C9C9;}	
+	.noIcon { background: #C9C9C9; background-image:none !important; padding: 5px 3px 5px 10px !important; }
+	.btnDownload_01 { display:none; }
+/* ===================== SLIDERS  ======================== */ 
+
+
+	#siteFeature {position:relative;    border:1px solid #ddd;   }
+	#siteFeature #tabContainer a:link, #siteFeature #tabContainer a:visited { background: transparent url(../images/_slider_inactive.png) no-repeat; }
+	#siteFeature #tabContainer a:hover{ background:#fff url(../images/_slider_inactive1.png) no-repeat; }
+	#siteFeature #tabContainer a h4 { color: #666; padding:10px 11px 0px 11px; }	
+	#siteFeature #tabContainer a.selected h4, #siteFeature #tabContainer a.selected p { color: #fff; text-shadow: 0px 1px 0px #666; }	
+	.PPTActiveTab { background: transparent url(../images/_slider_active.png); }
+	#siteFeature #txtBoxContainer a { color:#fff;} 
+	#siteFeature h3 { color:#fff; }
